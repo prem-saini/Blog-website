@@ -1,10 +1,22 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './component/Footer';
+import Header from './component/Header';
+import Post from './component/Post';
+import Section from './component/Section';
+import Sidebar from './component/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Blog</h1>
+      <Header />
+      <Section />
+      <div className='main'>
+        <Sidebar />
+        <Post />
+
+      </div>
+      <Footer />
     </div>
   );
 }

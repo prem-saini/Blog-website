@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.Footer span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Footer_right span {
+    margin: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}

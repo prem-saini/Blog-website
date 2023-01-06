@@ -1,0 +1,26 @@
+.Sidebar {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.card img {
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+
+}
+
+.description {
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+
+}
