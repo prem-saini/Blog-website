@@ -1,0 +1,46 @@
+.contact img {
+    height: 400px;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact_form input {
+
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+}
+
+.Contact_btn {
+    width: 200px;
+    height: 40px;
+    margin: 15px;
+    background-color: skyblue;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    border: transparent;
+}
+
+/* textarea {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+} */
