@@ -17,7 +17,7 @@ function Sidebar() {
                                     </div>
 
                                     <div className="description">
-                                        <p>{val.description}</p>
+                                        <p>{val.description} <span style={{ color: "red" }}>Read More</span></p>
                                     </div>
                                 </div>
                             </>

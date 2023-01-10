@@ -21,7 +21,7 @@ function Header() {
                         <Link to="/about" style={{ textDecoration: 'none', color: 'black' }}><li className="headercenter_li" >About</li> </Link>
                         <Link to="/contact" style={{ textDecoration: 'none', color: 'black' }}><li className="headercenter_li">Contact</li></Link>
                         <li className="headercenter_li">Service</li>
-                        <li className="headercenter_li">Write</li>
+                        <Link to="/write" style={{ textDecoration: 'none', color: 'black' }}><li className="headercenter_li">Write</li></Link>
                     </ul>
                 </div>
                 <div className="header_right">
